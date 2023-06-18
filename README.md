@@ -1,5 +1,5 @@
 # Simple Content Based Image Retrieval
-This repository contains a Jupyter notebook which implements a simple CBIR system with an in-memory database in a form of a dictionary.
+This repository contains a Jupyter notebook which implements a simple CBIR system with an in-memory database in form of a dictionary.
 
 ### Problem Definition
 The main idea and methodology for approaching the problem in this particular example are taken from [Investigating the Vision Transformer Model for Image Retrieval Tasks [1]](https://arxiv.org/abs/2101.03771).
