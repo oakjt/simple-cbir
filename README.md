@@ -1,13 +1,13 @@
 # Simple Content Based Image Retrieval
 This repository contains a Jupyter notebook which implements a simple CBIR system with an in-memory database in form of a dictionary.
 
-### Problem Definition
+## Problem Definition
 The main idea and methodology for approaching the problem in this particular example are taken from [Investigating the Vision Transformer Model for Image Retrieval Tasks [1]](https://arxiv.org/abs/2101.03771).
 
-### Model and query 
+## Model and Query 
 Image similarity is based on feature vectors extracted from images using a **Vision Transformer (ViT)** defined in [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [2]](https://arxiv.org/abs/2010.11929). The pretrained model is acquired using the [pytorch-image-models library [3]](https://github.com/huggingface/pytorch-image-models).
 
-### Showcase
+## Showcase
 The examples shown here are based on [DIV2K [4]](https://data.vision.ee.ethz.ch/cvl/DIV2K/) train imageset image 0006 featuring a monarch butterfly.
 
 Query:
@@ -25,7 +25,7 @@ Result:
 ![example_plant_result](./examples/example_plant_result.png)
 
 
-### References
+## References
 <a id="1">[1]</a> 
 Investigating the Vision Transformer Model for Image Retrieval Tasks; 
 Socratis Gkelios and Yiannis Boutalis and Savvas A. Chatzichristofis;
